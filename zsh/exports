@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Sets the default editor 
+export EDITOR="nvim"
+
+# Coming from bash, this may be needed
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# zsh
+export ZSH="$HOME/.oh-my-zsh"
+
+# custom functions
+export PATH=$PATH:$HOME/.dotfiles/bin
+
+# cargo
+export PATH=$PATH:$HOME/.cargo/bin
+
+# Adds local/bin to path
+export PATH=/usr/local/bin:$PATH

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+autoload bashcompinit && bashcompinit
+plugins=(
+	colored-man-pages 
+	colorize 
+	pip 
+	python 
+	brew 
+	macos 
+	docker 
+	docker-compose
+)

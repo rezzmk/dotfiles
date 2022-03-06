@@ -1,0 +1,24 @@
+# change directory simplified
+alias ..='cd ..'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias .....='cd ../../../../'
+
+# directory
+alias codedir="cd ~/code" 
+
+alias vi='nvim'
+alias vim='nvim'
+
+# ls commands
+alias ls='lsd'
+alias la='lsd -al'
+
+# grep
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+alias sudo='sudo '
+
+alias cat='bat'

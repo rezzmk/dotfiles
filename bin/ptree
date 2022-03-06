@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ptree() {
+	tree -aC -I ".git" --dirsfirst "$@" | less -FRNX
+}
+
+ptree $@
