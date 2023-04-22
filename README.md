@@ -11,4 +11,3 @@ To install these, for each platform there's a script which takes care of checkin
 Current profiles/configurations:
 
 - Starship. Profile screenshot [here](images/starship.png)
-# dotfiles
