@@ -5,8 +5,8 @@ param (
 	[switch]$wintermplugins,
 	[switch]$nerdfonts,
 	[switch]$configuregit,
-	[swtich]$configurewindows,
-	[swtich]$configurewindowsexplorer,
+	[switch]$configurewindows,
+	[switch]$configurewindowsexplorer,
 	[switch]$installwsl2,
 	[switch]$noremap,
 )
